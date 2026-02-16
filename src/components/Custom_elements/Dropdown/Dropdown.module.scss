@@ -1,0 +1,38 @@
+@use "../../../styles/variables";
+
+.dropdownContainer {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  .navLink {
+    color: variables.$text-color-main-light;
+  }
+
+  .trigger {
+    background: none;
+    border: none;
+
+    padding: 12px;
+  }
+
+  .list {
+    display: none;
+    position: absolute;
+
+    top: 100%;
+    width: max-content;
+
+    padding: 12px;
+    gap: 12px;
+  }
+
+  &:hover .list {
+    display: grid;
+  }
+}

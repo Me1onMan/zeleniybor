@@ -1,0 +1,23 @@
+$font-main: Helvetica, sans-serif;
+
+body {
+  background-image: url("https://zeleniybor.by/images/for-sections/bg-header-1.png");
+}
+
+body {
+  font-family: $font-main;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
