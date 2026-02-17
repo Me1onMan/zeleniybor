@@ -1,0 +1,18 @@
+@use "@styles/variables.scss";
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h2 {
+  position: absolute;
+  top: 30%;
+
+  text-align: center;
+  font-size: 64px;
+
+  color: variables.$text-color-main-light;
+}
+.img {
+}
