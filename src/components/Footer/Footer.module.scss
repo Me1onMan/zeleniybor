@@ -1,0 +1,23 @@
+.footer {
+  background-color: #eaeaea;
+
+  .sectionContacts {
+    .headerContacts {
+      display: none;
+    }
+  }
+
+  .sectionCopyright {
+    display: flex;
+    justify-content: space-around;
+
+    .link {
+    }
+
+    .text {
+    }
+    .headerCopyrights {
+      display: none;
+    }
+  }
+}
