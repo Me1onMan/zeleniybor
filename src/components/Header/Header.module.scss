@@ -1,9 +1,8 @@
-@use "../../styles/variables.scss";
-
 .header {
   background-color: rgba($color: #000000, $alpha: 0.5);
 
-  // overflow-x: visible;
+  position: absolute;
+  width: 100%;
 
   display: flex;
   justify-content: space-between;

@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import styles from "./Dropdown.module.scss";
 import type { IProps } from "./interfaces";
-import type { INavLink } from "../../../constants/navLinks";
+import type { INavLink } from "@constants/navLinks";
 
 const Dropdown = ({ navItem }: IProps): ReactNode => {
   return (

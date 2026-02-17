@@ -11,9 +11,10 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["*"],
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
       "@constants/*": ["constants/*"],
       "@styles/*": ["styles/*"],
-      "@components/*": ["components/*"],
       "@utils/*": ["utils/*"]
     },
 

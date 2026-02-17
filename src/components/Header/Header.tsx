@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import styles from "./Header.module.scss";
-import NavPanel from "../Custom_elements/NavPanel/NavPanel";
+import NavPanel from "@components/Custom_elements/NavPanel/NavPanel";
 import { navLinks } from "@constants/navLinks";
 
 const Header = (): ReactNode => {
