@@ -1,7 +1,7 @@
 $font-main: Helvetica, sans-serif;
 
 body {
-  // background-image: url("https://zeleniybor.by/images/for-sections/bg-header-1.png");
+  background-image: url("/src/assets/Section_backgrounds/bg-header-1.png");
 }
 
 body {
@@ -16,6 +16,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 li {

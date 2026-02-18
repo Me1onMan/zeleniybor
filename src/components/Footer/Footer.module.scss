@@ -1,0 +1,95 @@
+@use "@styles/variables.scss";
+
+.footer {
+  background-color: #ddc5c5;
+
+  .sectionContacts {
+    background-image: url("/src/assets/Section_backgrounds/bg-footer.jpg");
+
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+
+    padding: 32px 10%;
+
+    & .headerContacts {
+      display: none;
+    }
+
+    & .phoneContainer {
+      justify-self: end;
+
+      display: flex;
+      flex-direction: column;
+
+      & h3 {
+        color: variables.$text-color-green;
+      }
+
+      & a {
+        margin-top: 16px;
+      }
+      & button {
+        background: none;
+        border: none;
+
+        color: variables.$text-color-green;
+
+        margin-top: 8px;
+        max-width: fit-content;
+      }
+    }
+
+    & nav {
+      justify-self: center;
+
+      padding: 12px 32px;
+
+      border-left: 1px solid #e1e1e1;
+      border-right: 1px solid #e1e1e1;
+
+      & ul {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        row-gap: 16px;
+      }
+    }
+
+    & .addressContainer {
+      & h3 {
+        color: variables.$text-color-green;
+
+        margin-bottom: 16px;
+      }
+    }
+
+    & a {
+      color: black;
+    }
+
+    & a:hover,
+    & button:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .sectionCopyright {
+    background-color: #eaeaea;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 16px 10%;
+
+    & * {
+      color: #a4a4a4;
+    }
+
+    & .headerCopyrights {
+      display: none;
+    }
+  }
+}
