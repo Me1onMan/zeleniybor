@@ -1,11 +1,11 @@
-$font-main: Helvetica, sans-serif;
+@use "@styles/variables.scss";
 
 body {
   background-image: url("/src/assets/Section_backgrounds/bg-header-1.png");
 }
 
 body {
-  font-family: $font-main;
+  font-family: variables.$font-main;
 }
 
 * {
