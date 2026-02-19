@@ -8,11 +8,10 @@
 .h2 {
   position: absolute;
   top: 30%;
+  z-index: 1;
 
   text-align: center;
   font-size: 64px;
 
   color: variables.$text-color-main-light;
-}
-.img {
 }
