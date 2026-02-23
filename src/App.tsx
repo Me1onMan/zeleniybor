@@ -1,17 +1,15 @@
 import Header from "@components/Header/Header";
 import ErrorBoundary from "@utils/ErrorBoundary";
-import WelcomeSlider from "@components/WelcomeSlider/WelcomeSlider";
 import Footer from "./components/Footer/Footer";
+import PageRouter from "./router/PageRouter";
 
 function App() {
   return (
-    <>
-      <ErrorBoundary fallback={<div>Header Error Boundary</div>}>
-        <Header />
-        <WelcomeSlider />
-        <Footer />
-      </ErrorBoundary>
-    </>
+    <ErrorBoundary fallback={<div>Error Boundary</div>}>
+      <Header />
+      <PageRouter />
+      <Footer />
+    </ErrorBoundary>
   );
 }
 
