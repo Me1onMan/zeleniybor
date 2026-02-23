@@ -1,6 +1,7 @@
 @use "@styles/variables";
 
 .dropdownContainer {
+  z-index: 2;
   position: relative;
 
   display: flex;
