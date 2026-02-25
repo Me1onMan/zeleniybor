@@ -1,7 +1,7 @@
-import AdvantageSection from "@/components/AdvantageSection/AdvantageSection";
-import ScheduleSection from "@/components/ScheduleSection/ScheduleSection";
-import VouchersSection from "@/components/VouchersSection/VouchersSection";
-import WelcomeSlider from "@/components/WelcomeSlider/WelcomeSlider";
+import AdvantageSection from "./Content/AdvantageSection/AdvantageSection";
+import ScheduleSection from "./Content/ScheduleSection/ScheduleSection";
+import VouchersSection from "./Content/VouchersSection/VouchersSection";
+import WelcomeSlider from "./Content/WelcomeSlider/WelcomeSlider";
 
 function HomePage() {
   return (

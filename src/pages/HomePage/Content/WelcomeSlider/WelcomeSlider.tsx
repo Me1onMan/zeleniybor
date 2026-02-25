@@ -1,6 +1,6 @@
 import image1 from "@assets/WelcomeSliderImages/slide-1.jpg";
 import styles from "./WelcomeSlider.module.scss";
-import Slider from "../Custom_elements/Slider/Slider";
+import Slider from "../../../../components/Custom_elements/Slider/Slider";
 
 function WelcomeSlider() {
   return (
