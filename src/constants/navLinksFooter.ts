@@ -3,38 +3,38 @@ import type { INavLink } from "./navLinks";
 export const navLinksFooter: Array<INavLink> = [
   {
     title: "Главная",
-    link: "https://zeleniybor.by",
+    link: "/",
   },
   {
     title: "Номера и цены",
-    link: "https://zeleniybor.by/rooms",
+    link: "/rooms",
   },
   {
     title: "Бронирование",
-    link: "https://zeleniybor.by/online-booking",
+    link: "/online-booking",
   },
   {
     title: "Лечение",
-    link: "https://zeleniybor.by/treatment",
+    link: "/treatment",
   },
   {
     title: "Путевки",
-    link: "https://zeleniybor.by",
+    link: "/vouchers",
   },
   {
     title: "Спорт и доп. услуги",
-    link: "https://zeleniybor.by/sport-and-additional-services",
+    link: "/sport-and-additional-services",
   },
   {
     title: "Лагерь",
-    link: "https://zeleniybor.by/camp",
+    link: "/camp",
   },
   {
     title: "Контакты",
-    link: "https://zeleniybor.by/contacts",
+    link: "/contacts",
   },
   {
     title: "О санатории",
-    link: "https://zeleniybor.by/about",
+    link: "/about",
   },
 ];

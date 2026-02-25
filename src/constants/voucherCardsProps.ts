@@ -14,18 +14,19 @@ export const voucherCards: voucherCard[] = [
     img: image1,
     title: "Санаторно-курортная",
     description: "Широкий комплекс физиотерапевтических процедур.",
-    link: "https://zeleniybor.by/nomera-i-tseny",
+    link: "/nomera-i-tseny",
   },
   {
     img: image2,
-    title: "Санаторно-курортная",
-    description: "Широкий комплекс физиотерапевтических процедур.",
-    link: "https://zeleniybor.by/nomera-i-tseny",
+    title: "Оздоровительная",
+    description: "Отдых вдали от городской суеты.",
+    link: "/nomera-i-tseny",
   },
   {
     img: image3,
-    title: "Санаторно-курортная",
-    description: "Широкий комплекс физиотерапевтических процедур.",
-    link: "https://zeleniybor.by/nomera-i-tseny",
+    title: "Проживание",
+    description:
+      "Комфортные номера различной вместимости с прекрасным видом на хвойные и лиственные деревья.",
+    link: "/nomera-i-tseny",
   },
 ];

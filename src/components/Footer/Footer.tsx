@@ -36,7 +36,7 @@ function Footer() {
 
       <section className={styles.sectionCopyright}>
         <h2 className={styles.headerCopyrights}>Copyrights</h2>
-        <a href="https://zeleniybor.by/site-map">Карта сайта</a>
+        <a href="/site-map">Карта сайта</a>
         <p>Какие-то права защищены © 2026</p>
         <a href="https://github.com/me1onman">me1onman</a>
       </section>

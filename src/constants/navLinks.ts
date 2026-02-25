@@ -12,125 +12,125 @@ export interface INavItem {
 export const navLinks: Array<INavItem> = [
   {
     title: "Номера и цены",
-    mainLink: "https://zeleniybor.by/rooms",
+    mainLink: "/rooms",
     additionalLinks: [
       {
         title: "Онлайн-бронирование",
-        link: "https://zeleniybor.by/online-booking",
+        link: "/online-booking",
       },
     ],
   },
   {
     title: "Лечение",
-    mainLink: "https://zeleniybor.by/treatment",
+    mainLink: "/treatment",
     additionalLinks: [
       {
         title: "Процедуры по путевке",
-        link: "https://zeleniybor.by/treatment/procedures",
+        link: "/treatment/procedures",
       },
       {
         title: "Платные медицинские услуги",
-        link: "https://zeleniybor.by/treatment/paid-services",
+        link: "/treatment/paid-services",
       },
       {
         title: "Наши врачи",
-        link: "https://zeleniybor.by/treatment/doctors",
+        link: "/treatment/doctors",
       },
     ],
   },
   {
     title: "Путевки",
-    mainLink: "https://zeleniybor.by/vouchers",
+    mainLink: "/vouchers",
     additionalLinks: [
       {
         title: "Санитарно-курортные",
-        link: "https://zeleniybor.by/vouchers/sanitary-resort",
+        link: "/vouchers/sanitary-resort",
       },
       {
         title: "Оздоровительные",
-        link: "https://zeleniybor.by/vouchers/health-improving",
+        link: "/vouchers/health-improving",
       },
       {
         title: "Проживание",
-        link: "https://zeleniybor.by/vouchers/accommodation",
+        link: "/vouchers/accommodation",
       },
       {
         title: "Путевка выходного дня",
-        link: "https://zeleniybor.by/vouchers/weekend",
+        link: "/vouchers/weekend",
       },
     ],
   },
   {
     title: "Спорт и доп. услуги",
-    mainLink: "https://zeleniybor.by/sport-and-additional-services",
+    mainLink: "/sport-and-additional-services",
     additionalLinks: [
       {
         title: "Бассейн и сауна",
-        link: "https://zeleniybor.by/sport-and-additional-services/pool-and-sauna",
+        link: "/sport-and-additional-services/pool-and-sauna",
       },
       {
         title: "Спортивные услуги",
-        link: "https://zeleniybor.by/sport-and-additional-services/sports-services",
+        link: "/sport-and-additional-services/sports-services",
       },
       {
         title: "Прокат инвентаря",
-        link: "https://zeleniybor.by/sport-and-additional-services/equipment-rental",
+        link: "/sport-and-additional-services/equipment-rental",
       },
       {
         title: "Автоуслуги и паркинг",
-        link: "https://zeleniybor.by/sport-and-additional-services/auto-services-and-parking",
+        link: "/sport-and-additional-services/auto-services-and-parking",
       },
       {
         title: "Прочие услуги",
-        link: "https://zeleniybor.by/sport-and-additional-services/other-services",
+        link: "/sport-and-additional-services/other-services",
       },
       {
         title: "Спартакиада",
-        link: "https://zeleniybor.by/sport-and-additional-services/spartakiada",
+        link: "/sport-and-additional-services/spartakiada",
       },
     ],
   },
   {
     title: "Лагерь",
-    mainLink: "https://zeleniybor.by/camp",
+    mainLink: "/camp",
   },
   {
     title: "Контакты",
-    mainLink: "https://zeleniybor.by/contacts",
+    mainLink: "/contacts",
     additionalLinks: [
       {
         title: "Местоположение",
-        link: "https://zeleniybor.by/contacts/location",
+        link: "/contacts/location",
       },
       {
         title: "Наши телефоны",
-        link: "https://zeleniybor.by/contacts/phones",
+        link: "/contacts/phones",
       },
     ],
   },
   {
     title: "О санатории",
-    mainLink: "https://zeleniybor.by/about",
+    mainLink: "/about",
     additionalLinks: [
       {
         title: "Новости",
-        link: "https://zeleniybor.by/about/news",
+        link: "/about/news",
       },
       {
         title: "Акции и скидки",
-        link: "https://zeleniybor.by/about/sales",
+        link: "/about/sales",
       },
       {
         title: "Питание",
-        link: "https://zeleniybor.by/about/food",
+        link: "/about/food",
       },
       {
         title: "Досуг",
-        link: "https://zeleniybor.by/about/recreation",
+        link: "/about/recreation",
       },
       {
         title: "Вакансии",
-        link: "https://zeleniybor.by/about/jobs",
+        link: "/about/jobs",
       },
     ],
   },
