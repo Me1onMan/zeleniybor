@@ -1,0 +1,13 @@
+.section {
+  width: 60%;
+  margin: 0 auto;
+  padding: 64px 0;
+
+  & ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 128px;
+  }
+}
