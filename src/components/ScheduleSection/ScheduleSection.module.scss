@@ -1,0 +1,16 @@
+@use "@styles/variables";
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 128px;
+
+  & a {
+    background-color: #698333;
+    color: variables.$text-color-main-light;
+
+    padding: 64px 128px;
+  }
+}
