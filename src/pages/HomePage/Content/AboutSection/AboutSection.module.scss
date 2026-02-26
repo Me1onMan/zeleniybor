@@ -1,0 +1,29 @@
+@use "@styles/variables.scss";
+.section {
+  background-image: url("/src/assets/Section_backgrounds/bg-about-1.png");
+  & .content {
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+
+    & .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 50%;
+
+      & h3 {
+        color: variables.$text-color-green;
+      }
+
+      & p {
+        margin-top: 32px;
+      }
+
+      & a {
+        margin-top: 32px;
+        color: variables.$text-color-green;
+      }
+    }
+  }
+}

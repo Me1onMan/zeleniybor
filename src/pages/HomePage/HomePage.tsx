@@ -1,3 +1,4 @@
+import AboutSection from "./Content/AboutSection/AboutSection";
 import AdvantageSection from "./Content/AdvantageSection/AdvantageSection";
 import ScheduleSection from "./Content/ScheduleSection/ScheduleSection";
 import VouchersSection from "./Content/VouchersSection/VouchersSection";
@@ -10,6 +11,7 @@ function HomePage() {
       <ScheduleSection />
       <VouchersSection />
       <AdvantageSection />
+      <AboutSection />
     </>
   );
 }
