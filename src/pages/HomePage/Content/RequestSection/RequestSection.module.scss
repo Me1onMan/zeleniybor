@@ -1,0 +1,33 @@
+@use "@styles/variables";
+
+.section {
+  background-image: url(/src/assets/Section_backgrounds/bg-record-1.png);
+  min-height: 579px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & div {
+    color: variables.$text-color-main-light;
+    text-align: center;
+
+    & form {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 16px;
+
+      margin-top: 64px;
+    }
+
+    & input {
+      padding: 8px 24px;
+    }
+
+    & button {
+      background-color: #aed071;
+
+      padding: 8px 32px;
+    }
+  }
+}
